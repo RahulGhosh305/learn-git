@@ -1,4 +1,4 @@
-# Learn Git Command
+# Useful Git Commands
 
 - git --verison | git -v
 
@@ -47,3 +47,23 @@
 - git log | git log --oneline
 
 - git log --oneline --graph --all | git log --all
+
+- git clone “remote_repository_url”
+
+- git clone “remote_repository_url” folder_name
+
+- git fetch
+
+- git fetch “remote_repository_url”
+
+- git pull origin main
+
+- git branch | git branch -r | git branch --all
+
+- git branch branch_name
+
+- git checkout branch_name
+
+- git checkout -b branch_name
+
+- git branch -d “branch_name” | git branch -D “branch_name”
