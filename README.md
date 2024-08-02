@@ -29,10 +29,7 @@
 - git commit -m “commit_message_here”
 
 - git commit --amend -m “rewrite_typo_fix_commit_message”
-<<<<<<< HEAD
 
 - git commit --amend --no-edit
 
 - git branch -M “rename_branch”
-=======
->>>>>>> 0631a4752a89ddd62fbf0b787230fce3fc10ba3d
