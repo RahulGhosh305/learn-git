@@ -33,3 +33,9 @@
 - git commit --amend --no-edit
 
 - git branch -M “rename_branch”
+
+- git remote add origin “remote_repository_url”
+
+- git remote -v
+
+- git push -u origin main | git push
