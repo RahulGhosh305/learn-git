@@ -91,3 +91,17 @@
 - git stash pop stash_id
 
 - git reset --hard
+
+- git merge branch_name | git merge origin branch_name
+
+- git merge --no-ff branch_name
+
+- git merge --abort
+
+- git rebase master branch_name
+
+- git rebase --abort
+
+- git diff “commit_id” “commit_id”
+
+- git clean -f | git clean -f -n (delete untract files)
