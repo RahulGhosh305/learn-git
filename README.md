@@ -84,9 +84,9 @@
 
 - git stash
 
-- git stash pop
-
 - git stash list
+
+- git stash pop
 
 - git stash pop stash_id
 
