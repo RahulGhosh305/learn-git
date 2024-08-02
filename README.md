@@ -17,3 +17,17 @@
 - git config --local user.email "user_email"
 
 - git config --local user.email
+
+- git config --list
+
+- git init
+
+- git add file_name | git add .
+
+- git rm --cached file_name
+
+- git commit -m “commit_message_here”
+
+- git commit --amend -m “rewrite_typo_fix_commit_message”
+
+-
