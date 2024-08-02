@@ -39,3 +39,11 @@
 - git remote -v
 
 - git push -u origin main | git push
+
+- git push --set-upstream origin main --force
+
+- git status | git status -s
+
+- git log | git log --oneline
+
+- git log --oneline --graph --all | git log --all
