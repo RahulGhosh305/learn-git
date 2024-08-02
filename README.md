@@ -67,3 +67,17 @@
 - git checkout -b branch_name
 
 - git branch -d “branch_name” | git branch -D “branch_name”
+
+- git tag tag_name
+
+- git tag -l
+
+- git tag -a -m "tag_message" tag_name
+
+- git push origin tag_name
+
+- git push origin --tags
+
+- git show tag_name
+
+- git show "SHA-Id/Commit object first character"
