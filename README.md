@@ -72,7 +72,7 @@
 
 - git tag -l
 
-- git tag -a -m "tag_message" tag_name
+- git tag -a tag_name -m "tag_message"
 
 - git push origin tag_name
 
