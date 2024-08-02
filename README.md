@@ -81,3 +81,13 @@
 - git show tag_name
 
 - git show "SHA-Id/Commit object first character"
+
+- git stash
+
+- git stash pop
+
+- git stash list
+
+- git stash pop stash_id
+
+- git reset --hard
