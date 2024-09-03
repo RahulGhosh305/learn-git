@@ -70,40 +70,40 @@
 
 - git branch -d “branch_name” | git branch -D “branch_name” (Delete branch)
 
-- git tag tag_name
+- git tag tag_name (Set tag name)
 
-- git tag -l
+- git tag -l (Show tag list)
 
-- git tag -a tag_name -m "tag_message"
+- git tag -a tag_name -m "tag_message" (Create new tag with message)
 
-- git push origin tag_name
+- git push origin tag_name (Push tag)
 
-- git push origin --tags
+- git push origin --tags (Push all tags at a time)
 
-- git show tag_name
+- git show tag_name (Show tag information / Message)
 
-- git show "SHA-Id/Commit object first character"
+- git show "SHA-Id/Commit object first character" (Show commit)
 
-- git stash
+- git stash (Backword previous commit and store current commit in memory)
 
-- git stash list
+- git stash list (Show all stash SHA-Id)
 
-- git stash pop
+- git stash pop ()
 
 - git stash pop stash_id
 
-- git reset --hard
+- git reset --hard (Hard to reset previous commit)
 
-- git merge branch_name | git merge origin branch_name
+- git merge branch_name | git merge origin branch_name (Code merge)
 
-- git merge --no-ff branch_name
+- git merge --no-ff branch_name (Merge branch without fastforward)
 
-- git merge --abort
+- git merge --abort (Merge abort)
 
-- git rebase master branch_name
+- git rebase master branch_name (Rebase another branch to master branch)
 
-- git rebase --abort
+- git rebase --abort (Rebase abort)
 
-- git diff “commit_id” “commit_id”
+- git diff “commit_id” “commit_id” (Difference two commits)
 
 - git clean -f | git clean -f -n (delete untract files)
