@@ -40,7 +40,7 @@
 
 - git remote -v (Show remote repository url)
 
-- git push -u origin main | git push
+- git push -u origin main | git push (Push code to remote repository)
 
 - git push --set-upstream origin main --force
 
