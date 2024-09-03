@@ -62,13 +62,13 @@
 
 - git branch | git branch -r | git branch --all (Show git branches)
 
-- git branch branch_name
+- git branch branch_name (Create new branch)
 
-- git checkout branch_name
+- git checkout branch_name (Switch another branch)
 
-- git checkout -b branch_name
+- git checkout -b branch_name (Create new branch and also switch that branch)
 
-- git branch -d “branch_name” | git branch -D “branch_name”
+- git branch -d “branch_name” | git branch -D “branch_name” (Delete branch)
 
 - git tag tag_name
 
