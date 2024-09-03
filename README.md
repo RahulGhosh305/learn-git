@@ -1,36 +1,38 @@
 # Useful Git Commands
 
-- git --verison | git -v
+- git --verison | git -v (Check git version)
 
-- git config --global user.name “user_name”
+- git config --global user.name “user_name” (Set global project username)
 
-- git config --global user.name
+- git config --global user.name (Show global username)
 
-- git config --local user.name "user_name"
+- git config --local user.name "user_name" (Set local project username)
 
-- git config --local user.name
+- git config --local user.name (Show local username)
 
-- git config --global user.email "user_email"
+- git config --global user.email "user_email" (Set global project user email)
 
-- git config --global user.email
+- git config --global user.email (Show global user email)
 
-- git config --local user.email "user_email"
+- git config --local user.email "user_email" (Set local project user email)
 
-- git config --local user.email
+- git config --local user.email (Show local email)
 
-- git config --list
+- git config --list (Configuration list)
 
-- git init
+- git init (Git initialize)
 
-- git add file_name | git add .
+- git add file_name | git add . (Add to staged file)
 
-- git rm --cached file_name
+- git restore --staged "file_name" (Back staged file to modified file )
 
-- git commit -m “commit_message_here”
+- git rm --cached file_name (Delete form staged file )
 
-- git commit --amend -m “rewrite_typo_fix_commit_message”
+- git commit -m “commit_message_here” (Set message with commit)
 
-- git commit --amend --no-edit
+- git commit --amend -m “rewrite_typo_fix_commit_message” (Edit with rewrite previous commit message)
+
+- git commit --amend --no-edit (Set commit without no messeges it set previous commit message)
 
 - git branch -M “rename_branch”
 
