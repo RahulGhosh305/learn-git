@@ -32,7 +32,7 @@
 
 - git commit --amend -m “rewrite_typo_fix_commit_message” (Edit with rewrite previous commit message)
 
-- git commit --amend --no-edit (Set commit without no messeges it set previous commit message)
+- git commit --amend --no-edit (Set commit without no messeges. it set previous commit message)
 
 - git branch -M “rename_branch” (Rename branch name)
 
@@ -42,7 +42,7 @@
 
 - git push -u origin main | git push (Push code to remote repository)
 
-- git push --set-upstream origin main --force
+- git push --set-upstream origin main --force (Forcefully push to remote origin)
 
 - git status | git status -s
 
