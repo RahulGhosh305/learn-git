@@ -44,21 +44,21 @@
 
 - git push --set-upstream origin main --force (Forcefully push to remote origin)
 
-- git status | git status -s
+- git status | git status -s (Check status)
 
-- git log | git log --oneline
+- git log | git log --oneline (Show logs)
 
-- git log --oneline --graph --all | git log --all
+- git log --oneline --graph --all | git log --all (Show logs)
 
-- git clone “remote_repository_url”
+- git clone “remote_repository_url” (Clone git repo url)
 
-- git clone “remote_repository_url” folder_name
+- git clone “remote_repository_url” folder_name (Clone git repo with rename folder name)
 
-- git fetch
+- git fetch (fetch updated code. if use fetch need to be merge code in locally)
 
-- git fetch “remote_repository_url”
+- git fetch “remote_repository_url” (Fetch updated code)
 
-- git pull origin main
+- git pull origin main | git pull (Pull latest remote repo code)
 
 - git branch | git branch -r | git branch --all (Show git branches)
 
